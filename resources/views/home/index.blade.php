@@ -9,26 +9,6 @@
 </head>
 <style>
   
-  .imgd{
-    width: 4cm;
-    height: 3cm;
-    margin-top: 10px;
-    margin-bottom: 10px
-    }
-
-    
-    .abajo{
-    width: 100%;
-    height: 20%;
-    margin-bottom: 10px
-}
-
-
-.contentbot{
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
 
 </style>
 <body>

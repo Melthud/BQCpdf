@@ -14,11 +14,6 @@ use Barryvdh\DomPDF\Facade\Pdf as PDF;
 |
 */
 
-Route::get('/', function () {
-   /*$pdf = PDF::loadView('pdf.pdf');
-    return $pdf -> stream();*/
-   return view('home.index');
-});
 
 
 Route::get('/', function () {
