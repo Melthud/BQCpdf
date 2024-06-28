@@ -9,17 +9,41 @@
 </head>
 <style>
   
+  .imgd{
+    width: 4cm;
+    height: 3cm;
+    margin-top: 10px;
+    margin-bottom: 10px
+    }
 
     
+    .abajo{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px
+}
+
+
+.contentbot{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 </style>
 <body>
+    <div class="contentbot">
+        <form action="{{ route('second') }}" method="get">
+            <button type="submit">Descargar</button>
+        </form>
+    </div>
     <div class="card">
 
        <div class="interno">
 
             <div class="header">
                 <div class="bqclog">
-                    <img class="imgd" src="{{ asset('imagenes/bqc.png') }}">
+                    <img class="imgd" src="{{ asset('imagenes/bqclogo.png') }}">
                 </div>
             </div>
 
@@ -182,7 +206,7 @@
 
                 <div class="footer">
                     <div class="bqcbajo">
-                        <img class="abajo" src="{{ asset('imagenes/abajo.png') }}">
+                        <img class="abajo" src="{{ asset('imagenes/piepagina.png') }}">
                     </div>
                 </div>
 

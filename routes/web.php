@@ -19,3 +19,13 @@ Route::get('/', function () {
     return $pdf -> stream();*/
    return view('home.index');
 });
+
+
+Route::get('/', function () {
+   return view('home.index');
+})->name('home');
+
+Route::get('/second', function () {
+   $pdf = PDF::loadView('pdf.pdf');
+    return $pdf -> stream();
+})->name('second');
