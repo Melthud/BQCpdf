@@ -18,12 +18,12 @@
 
         <div id="header">
             <div class="bqclog">
-                <img class="imgd" src="{{ public_path('imagenes/bqclogo.png') }}">
+                <img class="imgd" src="{{ public_path('imagenes/bqclogofin.png') }}">
             </div>
        </div>
        <div id="footer">
         <div class="bqcbajo">
-            <img class="abajo" src="{{ public_path('imagenes/piepagina.png') }}">
+            <img class="abajo" src="{{ public_path('imagenes/abajojys.png') }}">
         </div>
     </div>
        <div class="contenido">

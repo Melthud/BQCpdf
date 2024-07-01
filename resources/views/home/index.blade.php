@@ -23,7 +23,7 @@
 
             <div class="header">
                 <div class="bqclog">
-                    <img class="imgd" src="{{ asset('imagenes/bqclogo.png') }}">
+                    <img class="imgd" src="{{ asset('imagenes/bqclogofin.png') }}">
                 </div>
             </div>
 
@@ -186,7 +186,7 @@
 
                 <div class="footer">
                     <div class="bqcbajo">
-                        <img class="abajo" src="{{ asset('imagenes/piepagina.png') }}">
+                        <img class="abajo" src="{{ asset('imagenes/abajojys.png') }}">
                     </div>
                 </div>
 
